@@ -1,0 +1,96 @@
+/* STYLE SECTIONING TAGS */
+*{
+  margin: 0px;
+  padding: 0px;
+  text-align: center
+ }
+body {
+ background-color: #FFF8D4; 
+}
+header {
+  background-color: #A3B087;
+  text-align: center;
+}
+main {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 20%;
+  margin-left: 20%;
+  text-align: center;
+}
+
+
+/* STYLE TEXT */
+
+h1 {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  color: #313647;
+  font-size: 30px;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  font-weight: bolder;
+}
+p {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  color: #435663;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+/* STYLE IMAGES */
+img {
+  max-width: 60%;
+  border-radius: 10%;
+  border: 3px solid white;
+}
+/* STYLE NAV BAR */
+
+ul {
+  list-style: none;
+  background-color: #313647;
+  overflow: hidden;
+  padding: 1
+}
+li {
+  display: inline;
+  text-align: center;
+}
+li a{
+  text-decoration: none;
+  color: #A3B087;
+  padding: 1em;
+  font-size: 1.3em;
+}
+li a:hover{
+  background-color: #FFF8D4;
+  
+}
+
+/* CLASSES */
+.tleftAlign {
+  text-align: left;
+}
+.trightAlign {
+  text-align: right;
+}
+.ileftAlign {
+  display: block;
+  margin-left: 0;
+  margin-right: auto; 
+}
+.irightAlign {
+  display: block;
+  margin-left: auto;
+  margin-right: 0; 
+}
+
+/* IDS */
+#amorQuote {
+  color: #435663;
+  font-weight: bold;
+  font-style: italic
+}
+
+
